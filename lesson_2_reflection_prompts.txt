@@ -5,6 +5,7 @@ command.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+In staging area ,the files are in a ready state after which a commit can be created.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
