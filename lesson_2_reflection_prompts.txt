@@ -9,14 +9,20 @@ In staging area ,the files are in a ready state after which a commit can be crea
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can use the git diff command to see the changes with the working directory and the
+git diff --staged command to compare it with the recent commit so that to make sure
+you have one commit per logical change
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+I dont know now,will tell you when something comes up.
 
 How do the diagrams help you visualize the branch structure?
+it helps in determining which commits are reachable amd which are not.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+all the commits in each branch are merged in one and can be accessed.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
